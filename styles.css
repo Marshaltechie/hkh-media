@@ -1,0 +1,113 @@
+*{
+    background-color: black;
+    color: rgb(224, 219, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    /* box-sizing: border-box; */
+}
+.media{
+    color: rgb(200, 71, 92);
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+ul li{
+    margin-right: 50px;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(200, 71, 92);
+}
+
+#welcome{
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 10%;
+}
+
+div.container{
+    margin-left: 5%;
+}
+
+.more-books{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(176, 77, 94);
+    color: rgb(7, 97, 152);
+    width: fit-content;
+    text-align: center;
+    margin-left: 40%;
+}
+a:hover{
+    color: rgb(55, 55, 226);
+}
+.hkh{
+    color: rgb(200, 71, 92);
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+
+.vis{
+    text-align: center;
+    position: relative;
+}
+
+.cta{
+    text-align: center;
+}
+
+.foot{
+    border: 2px solid blue;
+    width: 420px;
+    margin-left: 33%;
+}
+/* Mission bar */
+#mission{
+    color: rgb(168, 30, 53);
+    text-align: center;
+}
+p#mission{
+    color: white;
+}
+#found{
+    color: rgb(168, 30, 53);
+    text-align: center;
+}
+p#found{
+    color: white;
+}
+
+.flex-container{
+  display: inline-flex;
+}
+
+.flex-container div {
+    background: rgb(172, 106, 106);
+    border: 3px solid red;
+    position: relative;
+    height: 100px;
+    width: fit-content;
+    /* padding-right: 50px; */
+    margin: 4px;
+    margin-right: 10%;
+    flex: 1;
+}
+
+.one{
+    text-align: center;
+    /* margin-left: 10%; */
+}
+
+
+/* Footer */
+footer{
+    text-align: center;
+}
