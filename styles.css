@@ -22,6 +22,12 @@ a{
     color: rgb(200, 71, 92);
 }
 
+/* Home page image display */
+.images{
+    display: flex;
+    padding: 15px;
+}
+
 #welcome{
     text-align: center;
 }
